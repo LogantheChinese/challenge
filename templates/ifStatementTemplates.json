@@ -1,0 +1,36 @@
+{
+  "example_1": {
+    "condition": "a == 'abc'",
+    "thenClause": {
+      "result": true
+    },
+    "elseClause": {
+      "result": false
+    }
+  },
+  "example_2": {
+    "condition": "a == 'abc' && b == 4",
+    "thenClause": {
+      "result": true
+    },
+    "elseClause": {
+      "result": false
+    }
+  },
+  "example_3": {
+    "condition": "a == 'abc' && b == 4",
+    "thenClause": {
+      "result": true
+    },
+    "elseClause": {
+      "condition": "b > 5",
+      "thenClause": {
+        "result": true
+      },
+      "elseClause": {
+        "result": false
+      }
+    }
+  }
+}
+
